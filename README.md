@@ -1,4 +1,4 @@
-# Kanban Boards
+# Task Management Boards
 
 ## Tech stack 
 - React for the front-end (only hooks, no classes).
@@ -9,16 +9,11 @@
 > Stack requirements mentioned above are obligatory to follow. Other technologies and patterns are free of your choice.  
 
 ## Requirements
-1. Each user is allowed to create/update/delete workspaces (implement UX/UI on your own).
-2. Each workspace (unique hashed ID, name) may contain multiple boards.
-3. Each user can enter a workspace ID and load existing boards related to this workspace.
-4. User should be able to add/update/delete boards.
-5. Each board may contain multiple columns.
-6. User should be able to add/update/delete columns.
-7. User should be able to create issues - with the title and description.
-8. New issue has to always go into the `Todo` section.
-9. Users should be able to drag and drop issues them into other sections, or change orders.
-10. On clicking the issue, the user should see a modal window and be able to edit the issue's title and description.
+1. Each user is allowed to create/update/delete boards (implement UX/UI on your own).
+2. Each board (unique hashed ID, name) should contain 3 columns - ToDo, In Progress, Done.
+3. Each user can enter a board ID and load relevant columns with cards (if exist) related to this board.
+4. Each user should be able to add/update/delete cards (title and description).
+5. Users should be able to drag and drop cards into other columns, or change order.
 
 ## Assessment
 
@@ -31,8 +26,7 @@ What will we assess:
 
 ## Mockups
 
-![image](https://res.cloudinary.com/dgw6mlivg/image/upload/v1702462814/photo_2023-12-13_12.20.04_utbiea.jpg)
-![image](https://github.com/YuriiDev88/github-kanban-test-task/assets/87063437/bb369d4d-d3c9-48f4-9c52-adb490897f0b)
+![image](https://res.cloudinary.com/dgw6mlivg/image/upload/v1704304356/Enter_the_board_ID_here..._1_q6zzpy.png)
 
 
 ## How to complete the task
