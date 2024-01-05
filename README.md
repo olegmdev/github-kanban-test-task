@@ -9,11 +9,12 @@
 > Stack requirements mentioned above are obligatory to follow. Other technologies and patterns are free of your choice.  
 
 ## Requirements
-1. Each user is allowed to create/update/delete boards (implement UX/UI on your own).
+1. Each visitor is allowed to create/update/delete boards (implement UX/UI on your own).
 2. Each board (unique hashed ID, name) should contain 3 columns - ToDo, In Progress, Done.
-3. Each user can enter a board ID and load relevant columns with cards (if exist) related to this board.
-4. Each user should be able to add/update/delete cards (title and description).
-5. Users should be able to drag and drop cards into other columns, or change order.
+3. Each visitor can enter a board ID and load relevant columns with cards (if exist) related to this board.
+4. Each visitor should be able to add/update/delete cards (title and description).
+5. Visitors should be able to drag and drop cards into other columns, or change order.
+> User authentication is not needed. Boards management is considered to be implemented anonymously.
 
 ## Assessment
 
