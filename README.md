@@ -26,7 +26,7 @@ What will we assess:
 
 ## Mockups
 
-![image](https://res.cloudinary.com/dgw6mlivg/image/upload/v1704304356/Enter_the_board_ID_here..._1_q6zzpy.png)
+![image](https://res.cloudinary.com/dgw6mlivg/image/upload/v1704446575/Title_1_yecgix.png)
 
 
 ## How to complete the task
