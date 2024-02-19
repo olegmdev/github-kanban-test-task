@@ -1,0 +1,16 @@
+h2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.todos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
