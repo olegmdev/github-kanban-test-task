@@ -36,11 +36,10 @@ export const TodoList: React.FC<Props> = ({ name, todos, setTodos }) => {
   return (
           <><h2 className='title is-3'>{name}:</h2><div className='todos-box'>
       {todos?.length ? (
-        todos.map((todo, index) => (
+        todos.map((todo) => (
           <TodoItem
             todo={todo}
             key={todo.id}
-            index={index}
             onDelete={deleteTodo}
             onSaveTodo={saveTodo} />
         ))
